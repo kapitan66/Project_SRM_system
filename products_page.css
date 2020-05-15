@@ -1,17 +1,18 @@
 .backraung{
-    background-color:#363062;
+    background-color:#362F62;
 }
 #stylesheet{
     display: grid;
     position: absolute;
-    background-color:#d8b8c3;
+    background-color:#837397;
     grid-template-rows: minmax(40px);
-    font-family: Regular 400;
+    font-family: Source Sans Pro;
     color: #363062;
     text-align: center;
     left: 80px;
     width:600px;
-    text-align: center;    
+    text-align: center;  
+    border: 2px solid #4e4c7d  
 }
 .search{
     display: grid;
@@ -19,85 +20,109 @@
     position: relative;
     top: 80px;
     left:100px;
-    background-color:#d8b8c3;
+    background-color:#837397;
     height: 45px;
     font-size: small;
     text-align: center;
-    width: 500px;      
+    width: 500px;    
+    border: 2px solid #4e4c7d  
 }
 .one-colums{
     display: grid;
     grid-template-rows:50px;
     position: absolute;
-    background-color: #d8b8c3;
+    background-color: #837397;
     left: 100px;
     top: 200px;
     text-align: center;
     height: 70px;
     width: 70px;
+    border: 2px solid #4e4c7d
 
 }
 .two-colums{
     display: grid;
     position: absolute;
     grid-template-rows:50px;
-    background-color: #d8b8c3;
+    background-color: #837397;
     left: 100px;
     top :280px;
     height: 90px;
     width: 90px;
+    border: 2px solid #4e4c7d
 }
 .three-colums{
     display: grid;
     position: absolute;
     grid-template-rows:50px;
-    background-color: #d8b8c3;
+    background-color: #837397;
     top :380px;
     left: 100px;
     height: 120px;
     width: 90px;
+    border: 2px solid #4e4c7d
 }
 .four-colums{
     display: grid;
     position: absolute;
     grid-template-rows:50px;
-    background-color: #d8b8c3;
+    background-color: #837397;
     top :520px;
     left: 100px;
     height: 120px;
     width: 130px;
+    border: 2px solid #4e4c7d
 }
 .five-colums{
     display: grid;
     position: absolute;
     grid-template-rows:50px;
-    background-color: #d8b8c3;
+    background-color: #837397;
     margin: 10px;
     top :450px;
     left: 300px;
     height: 180px;
     width: 100px;
+    border: 2px solid #4e4c7d
 }
 .six-colums{
-    display: grid;
-    position: absolute;
-    grid-template-rows:50px;
-    background-color: #d8b8c3;
-    margin: 10px;
-    top :200px;
-    left: 300px;
-    height: 160px;
-    width: 70px;
-}
-.list{
     display: grid;
     position: absolute;
     grid-template-rows:50px;
     background-color: #837397;
     margin: 10px;
     top :200px;
-    left: 500px;
-    height: 200px;
-    width: 100px;
-    
+    left: 300px;
+    height: 160px;
+    width: 70px;
+    border: 2px solid #4e4c7d
+}
+.list{
+    display: grid;
+    position: absolute;
+    grid-template-rows:50px;
+    background-color: #D8B8C5;
+    margin: 10px;
+    top :200px;
+    left: 400px;
+    height: 80px;
+    width: 100px; 
+    font-family: Regular 400;
+    color: #363062;  
+    text-align: center; 
+    border: 2px solid #4e4c7d
+}
+.product_list{
+    display: grid;
+    position: absolute;
+    grid-template-columns:300px ;
+    background-color: #837397;
+    left: 900px;
+    top: 15px;
+    border: 2px solid #4e4c7d;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-family: Regular 400;
+    color: #363062; 
 }
