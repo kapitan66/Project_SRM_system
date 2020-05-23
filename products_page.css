@@ -34,10 +34,10 @@
     background-color: #837397;
     left: 100px;
     top: 200px;
-    text-align: center;
     height: 70px;
     width: 70px;
-    border: 2px solid #4e4c7d
+    border: 2px solid #4e4c7d;
+    color: #363062;
 
 }
 .two-colums{
@@ -49,7 +49,8 @@
     top :280px;
     height: 90px;
     width: 90px;
-    border: 2px solid #4e4c7d
+    border: 2px solid #4e4c7d;
+    color: #363062
 }
 .three-colums{
     display: grid;
@@ -60,7 +61,8 @@
     left: 100px;
     height: 120px;
     width: 90px;
-    border: 2px solid #4e4c7d
+    border: 2px solid #4e4c7d;
+    color: #363062;
 }
 .four-colums{
     display: grid;
@@ -71,7 +73,8 @@
     left: 100px;
     height: 120px;
     width: 130px;
-    border: 2px solid #4e4c7d
+    border: 2px solid #4e4c7d;
+    color: #363062;
 }
 .five-colums{
     display: grid;
@@ -83,7 +86,8 @@
     left: 300px;
     height: 180px;
     width: 100px;
-    border: 2px solid #4e4c7d
+    border: 2px solid #4e4c7d;
+    color: #363062;
 }
 .six-colums{
     display: grid;
@@ -95,22 +99,8 @@
     left: 300px;
     height: 160px;
     width: 70px;
-    border: 2px solid #4e4c7d
-}
-.list{
-    display: grid;
-    position: absolute;
-    grid-template-rows:50px;
-    background-color: #D8B8C5;
-    margin: 10px;
-    top :200px;
-    left: 400px;
-    height: 80px;
-    width: 100px; 
-    font-family: Regular 400;
-    color: #363062;  
-    text-align: center; 
-    border: 2px solid #4e4c7d
+    border: 2px solid #4e4c7d;
+    color: #363062
 }
 .product_list{
     display: grid;
@@ -126,3 +116,5 @@
     font-family: Regular 400;
     color: #363062; 
 }
+
+
