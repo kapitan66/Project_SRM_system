@@ -116,5 +116,33 @@
     font-family: Regular 400;
     color: #363062; 
 }
-
-
+[data-tooltip] {
+    position: relative;
+}
+[data-tooltip]::after{
+    content: attr(data-tooltip);
+    position: absolute;
+    width: 300px;
+    left: 0;
+    background:  #837397;
+    color: #363062;
+    box-shadow: 2px 2px 5px rgba(0,0,0, 0.3);
+    pointer-events: none;
+    opacity: 0;
+    transition: 1s;
+    border: 2px solid #4e4c7d;
+}
+[data-tooltip]:hover::after{
+    opacity: 1;
+    top: 2em;
+}
+.list{
+    color:#363062;
+    display: grid;
+    position: absolute;
+    grid-template-columns: auto;
+    background-color: #837397;
+    border: 1px solid #4e4c7d;
+    left: 400px;
+    top: 210px;
+}
