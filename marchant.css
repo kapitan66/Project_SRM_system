@@ -1,0 +1,31 @@
+.backgraund{
+    background-color:#362F62;
+}
+table{
+    width: 800px;
+    margin: auto;
+    table-layout:fixed;
+    text-align: center;
+    margin-top: 50px;
+    color: #837397;
+
+
+}
+table, th, td{
+    border:  1px solid #4e4c7d;
+    font-size: 22px;
+}
+th{
+    background: rgb(48, 4, 88);
+    padding: 20px;
+}
+td:nth-child(5n+1){
+    background: rgb(12, 55, 134);
+    padding: 3px;
+}
+td:nth-child(5n+2){
+    background: rgb(3, 95, 33);
+}
+td:nth-child(5n+3){
+    background: rgb(7, 110, 97);
+}
