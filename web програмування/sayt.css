@@ -1,0 +1,119 @@
+.head{
+    display: grid;
+    position: relative;
+    grid-template-rows: 40px;
+    background-image: url(2jpg.jpg);
+    margin: 0px;
+    color: white;
+}
+#dounload{
+    border: 1px solid;
+    position: absolute;
+    text-align: center;
+    left: 1200px;
+    top: 10px;
+}
+.social_icon_pack{
+    display: grid;
+    position: relative;
+    grid-template-rows: auto;
+    background-image: url(2jpg.jpg);
+    text-align: center;
+}
+.social_icons div{
+    padding: 10px;
+    border: 1px solid gray;
+    margin: 15px;
+}
+.social_icons{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 350px;
+}
+.social_icons_2 div{
+    padding: 10px;
+    border: 1px solid gray;
+    margin: 15px;
+    
+}
+.social_icons_2{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 350px;
+}
+
+.social_icons_3 div{
+    padding: 10px;
+    border: 1px solid gray;
+    margin: 15px;
+    
+}
+.social_icons_3{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 350px;
+}
+.social_icons_4 div{
+    padding: 10px;
+    border: 1px solid gray;
+    margin: 15px;
+    
+}
+.social_icons_4{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 350px;
+}
+.social_icons_5 div{
+    padding: 10px;
+    border: 1px solid gray;
+    margin: 15px;
+    
+}
+.social_icons_5{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 350px;
+}
+.social_icons_6 div{
+    padding: 10px;
+    border: 1px solid gray;
+    margin: 15px;
+    
+}
+.social_icons_6{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 350px;
+}
+.social_icons_7 div{
+    padding: 10px;
+    border: 1px solid gray;
+    margin: 15px;
+    
+}
+.social_icons_7{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 350px;
+}
+.social_icons_8 div{
+    padding: 10px;
+    border: 1px solid gray;
+    margin: 15px;
+    
+}
+.social_icons_8{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 350px;
+}
+body{
+    background-image: url(backgraund.jpg);
+}
+.contakts{
+    border: 2px solid blue;
+    list-style: none;
+    text-align: center;
+    color: white;
+}
